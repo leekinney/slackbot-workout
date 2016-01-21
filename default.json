@@ -1,10 +1,10 @@
 {
-  "teamDomain": "yourDomainHere",
-  "channelName": "general",
-  "channelId": "channelIdHere",
+  "teamDomain": "dig514",
+  "channelName": "fitness",
+  "channelId": "C0JV8DSTB",
 
   "officeHours": {
-    "on": false,
+    "on": true,
     "begin": 9,
     "end": 17
    },
@@ -17,7 +17,7 @@
       "maxTime": 23,
       "units": "minutes"
     },
-    "numPeople": 3,
+    "numPeople": 1,
     "slidingWindowSize": 8,
     "groupCalloutChance": 0.05
   },
@@ -25,30 +25,30 @@
   "exercises": [
     {
       "id": 0,
-      "name": "pushups",
+      "name": "wall pushups",
       "minReps": 15,
-      "maxReps": 20,
+      "maxReps": 25,
       "units": "rep"
     },
     {
       "id": 1,
-      "name": "planks",
-      "minReps": 40,
-      "maxReps": 60,
-      "units": "second"
+      "name": "walking lunges",
+      "minReps": 20,
+      "maxReps": 40,
+      "units": "rep"
     },
     {
       "id": 2,
       "name": "wall sit",
-      "minReps": 40,
+      "minReps": 30,
       "maxReps": 50,
       "units": "second"
     },
     {
       "id": 3,
       "name": "chair dips",
-      "minReps": 15,
-      "maxReps": 30,
+      "minReps": 10,
+      "maxReps": 20,
       "units": "rep"
     },
     {
@@ -56,6 +56,13 @@
       "name": "calf raises",
       "minReps": 20,
       "maxReps": 30,
+      "units": "rep"
+    },
+        {
+      "id": 5,
+      "name": "steps",
+      "minReps": 3,
+      "maxReps": 6,
       "units": "rep"
     }
   ]
